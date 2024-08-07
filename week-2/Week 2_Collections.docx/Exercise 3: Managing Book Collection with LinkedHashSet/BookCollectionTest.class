@@ -1,0 +1,30 @@
+Êþº¾   A `
+       java/lang/Object <init> ()V   java/util/Scanner	 
+ 
+   
+  java/lang/System in Ljava/io/InputStream;
+      (Ljava/io/InputStream;)V   BookCollection
+  	 
+    out Ljava/io/PrintStream;  
+Choose an option:
+        java/io/PrintStream  println (Ljava/lang/String;)V " 
+1. Add a book $ 2. Remove a book & 3. Display all books (  4. Exit
+   * + ,  nextInt ()I
+   . / 0 nextLine ()Ljava/lang/String; 2 #Enter the name of the book to add: 
+  4 5   print
+  7 8 9  addBook (Ljava/lang/String;)Z ; &Enter the name of the book to remove: 
+  = > 9 
+removeBook @ Current book collection:
+  B C  displayBooks E 
+Exiting...
+   G H  close J 6Invalid choice. Please enter a number between 1 and 4.  L BookCollectionTest Code LineNumberTable LocalVariableTable this LBookCollectionTest; main ([Ljava/lang/String;)V Ljava/lang/String; choice I args [Ljava/lang/String;  scanner Ljava/util/Scanner; 
+collection LBookCollection; 
+StackMapTable 
+SourceFile BookCollectionTest.java ! K           M   /     *· ±    N        O        P Q   	 R S  M  —     »»  Y² 	· L» Y· M² ¶ ² !¶ ² #¶ ² %¶ ² '¶ +¶ )>+¶ -Wª    j            6   N   ]² 1¶ 3+¶ -:,¶ 6W§ ?² :¶ 3+¶ -:,¶ <W§ '² ?¶ ,¶ A§ ² D¶ +¶ F±² I¶ §ÿ[    N   j     
+   	  
+ # 
+ +  3 
+ ;  @  E  d  l  r  y  |  „  Š  ‘  ”   œ !   " £ % « & ¯ ' ° * ¸ , O   >  r 
+ 8 T  Š 
+ > T  @ x U V    » W X   
+ ° Y Z   ¨ [ \  ]     ý      ü Pú    ^    _
