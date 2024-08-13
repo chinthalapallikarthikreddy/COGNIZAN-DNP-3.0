@@ -1,1 +1,17 @@
+# payroll_calculator.py
+
+
+def calculate_pay(hours, rate):
+    total_pay = hours * rate
+    return total_pay
+
+
+hours_worked = float(input("Enter the number of hours worked: "))
+hourly_rate = float(input("Enter the hourly rate : "))
+
+
+total_pay = calculate_pay(hours_worked, hourly_rate)
+
+
+print(f"Total pay for the employee: ${total_pay:.2f}")
 
