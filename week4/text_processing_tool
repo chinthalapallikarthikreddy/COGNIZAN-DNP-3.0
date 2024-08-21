@@ -1,0 +1,32 @@
+# text_processing_tool/__init__.py
+def count_words(text):
+    return len(text.split())
+
+def find_unique_words(text):
+    return set(text.split())
+
+def convert_to_uppercase(text):
+    return text.upper()
+
+# main.py
+def main():
+    text = input("Enter a text string: ")
+
+    print("Choose an operation:")
+    print("1. Count words")
+    print("2. Find unique words")
+    print("3. Convert text to uppercase")
+
+    choice = input("Enter the number of your choice (1, 2, or 3): ")
+
+    if choice == "1":
+        print(f"Word count: {count_words(text)}")
+    elif choice == "2":
+        print(f"Unique words: {find_unique_words(text)}")
+    elif choice == "3":
+        print(f"Uppercase text: {convert_to_uppercase(text)}")
+    else:
+        print("Invalid choice")
+
+if __name__ == "__main__":
+    main()
